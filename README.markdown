@@ -21,6 +21,7 @@ This quick start example illustrates:
 1. Getting the version string from the response object
 
 Code:
+```php
     <?php
     
         // Include the autoloader
@@ -49,6 +50,7 @@ Code:
         echo "WHM Version: {$response->version}\n";
         
     ?>
+```
 
 ## The cPanel PHP Library
 
